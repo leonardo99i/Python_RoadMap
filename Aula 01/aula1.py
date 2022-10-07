@@ -1,11 +1,14 @@
-#Para criar um comentário em python
+from datetime import datetime
 
-print('Linha 1')
-print('Linha 2')
-#Falando sobre do que se trata essa linha
-print('Linha 3')
-print('Linha 4')
-print('Linha 5')
-print('Linha 6')
+def bubble_sort(data):
+  lst = list(data)
+  for i in range(len(lst)):
+    for j in range(i+1, len(lst)):
+      if lst[j], lst[i] = lst[i], lst[j]
+  return lst
 
+itens = [4,1,5,3,2]
+sortItens = bubble_sort(itens)
 
+print(itens)
+print(sortItens)
